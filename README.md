@@ -1,2 +1,2 @@
 # HTML5-CSS3-Part-1
-Por enquanto apenas Códigos em Html
+Do exercício 13 pra frente HTML5 e CSS3.
