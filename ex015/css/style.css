@@ -1,1 +1,20 @@
+@charset "UTF-8"; /* Regra sempre em primeiro lugar, todo '@' é para definir uma regra */
 
+body {
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    ;
+}
+
+h1 {
+    color: chocolate;
+}
+
+h2 {
+    color: slateblue;
+}
+
+p {
+    text-align: justify;
+}
