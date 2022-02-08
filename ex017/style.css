@@ -1,1 +1,15 @@
+@charset "UTF-8";
 
+body {
+    /*
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+    font-style: italic;
+    */
+
+    /* shorthand font 
+    font-style -> font-weight -> font-size -> font-family */
+    font: italic bolder 1em 'Times New Roman', 'Times', 'sans-serif';
+    text-decoration: underline;
+}
