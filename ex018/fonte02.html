@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {  /* Para criar uma fonte personalizada baixada pela net. */
+            font-family: 'terror';
+            src: url('fonts/Zombie.otf') format('opentype'), url('fonts/Zombie.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        /*
+            tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (apple Advanced typography)
+            - svg
+        */
+
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-family: 'terror', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quidem odio voluptatem, recusandae corrupti, neque blanditiis incidunt molestiae adipisci fugit deleniti laborum vitae optio soluta. Sit soluta libero impedit dolore?</p>
+</body>
+</html>
